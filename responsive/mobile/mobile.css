@@ -1,0 +1,18 @@
+body{
+    background: #000;
+}
+.menu{
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+}
+.menu a{
+    background-color: brown;
+    margin: 10px 0;
+    border-radius: 10px;
+}
+.culumn{
+
+    flex: 100%;
+
+}

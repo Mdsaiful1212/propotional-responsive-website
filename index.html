@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>propotional website</title>
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://kit.fontawesome.com/80d99023ff.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css">
+</head>
+
+
+<section class="header" id="home">
+
+
+
+    <nav>
+        <a class="logo" href="#">SaiFuLs Web</a>
+        <div class="nav-links" id="navlinks">
+            <i class="fa fa-times" onclick="hidemenu()"></i>
+            <ul>
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#course">COURSE</a></li>
+                <li><a href="#">BLOG</a></li>
+                <li><a href="#">CONTACT</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showmenu()"></i>
+    </nav>
+
+
+    <div class="text-box">
+        <h1>SaiFuLs PersonaL WebsitE</h1>
+        <p>making website is now one of the easiest thing in the world. you just need to learn Html css <br> javascript
+            and you are good to go .</p>
+        <a class="hero-btn" href="#">visit it us to know more</a>
+    </div>
+
+</section>
+
+
+
+<!-- course -->
+
+
+<section class="course" id="course">
+    <h1>course we offer</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+</section>
+
+
+<div class="row">
+    <div class="course-col">
+        <h3>Word Press</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error odio quia voluptatem distinctio deleniti et
+            velit quas nemo veniam mollitia consequuntur, dolorum nulla iste veritatis voluptates.</p>
+    </div>
+
+
+    <div class="course-col">
+        <h3>Web Devlopment</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error odio quia voluptatem distinctio deleniti et
+            velit quas nemo veniam mollitia consequuntur, dolorum nulla iste veritatis voluptates.</p>
+    </div>
+
+
+    <div class="course-col">
+        <h3>phython</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error odio quia voluptatem distinctio deleniti et
+            velit quas nemo veniam mollitia consequuntur, dolorum nulla iste veritatis voluptates.</p>
+    </div>
+</div>
+
+
+<!-- javascript for toggle menu -->
+
+<script>
+
+    var navlinks = document.getElementById("navlinks")
+
+    function showmenu() {
+        navlinks.style.right = "0";
+    }
+    function hidemenu() {
+        navlinks.style.right = "-200px";
+    }
+
+
+</script>
+
+
+</body>
+
+</html>
